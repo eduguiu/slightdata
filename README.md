@@ -1,1 +1,2 @@
-# slightdata is the repository for Street Light Data
+# Slightdata 
+Make Datasets available to load them to models. 
