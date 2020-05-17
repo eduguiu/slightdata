@@ -1,7 +1,11 @@
 # Slightdata 
-Make Datasets available to load them to models. 
+Make Datasets available to generate Detectron2 models. 
 
-the datasets are created from images and through 
-- VIA and labelme.
+The datasets are created from images and through 
+- IrfanView (1024px)
+- labelme py software (CoCo json tagging)
+- GColab (Jupyter Notebooks).
 
 and loaded to be treated with Detectron2 algo notebook. 
+
+
