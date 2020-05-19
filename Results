@@ -1,6 +1,5 @@
 Results:
 
-
  | Dataset  | Model  | AP result | 
  | --- | --- | --- |
  | Slight 100 - 170   | RN50 - FPN   |   20%         |
