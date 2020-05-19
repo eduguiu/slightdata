@@ -8,4 +8,5 @@ The datasets are created from images and through
 
 and loaded to be treated with Detectron2 algo notebook. 
 
+A test is headed to change both models and weights, with newer algos, like VoV and CenterMask. 
 
