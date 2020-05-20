@@ -2,7 +2,7 @@ Results:
 
 The table summarises the different results obtained in Segmentation category. 
 
- | Dataset  | Model  | Epochs | LR /128ROI | AP result | APm | APl | Best | Time |
+ | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time |
  | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- |
  | Slight 100 - 170 | RN50 - FPN | 300 | 0.0025 | 20% |  | | | |
  | Slight 199 - 293 | RN50 - FPN | 300 | 0.0025 | 32% |  | | | |
