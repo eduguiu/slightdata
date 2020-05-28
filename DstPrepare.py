@@ -8,8 +8,8 @@ import sys
 import json
 from google.colab.patches import cv2_imshow
 
-# read the annotations datasets
-df= pd.read_csv('/content/drive/My Drive/RCNN/OIDCv4_v1/csv_folder/train-annotations-bbox.csv')
+# read the annotations datasets 1M lines
+df= pd.read_csv('/content/drive/My Drive/RCNN/OIDCv4_v1/csv_folder/train-annotations-bbox.csv', nrows=100000) #comment nrows to 
 
 # Define DataFrame Annotations (DFA)
 ## select categories
