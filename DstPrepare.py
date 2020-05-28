@@ -1,3 +1,10 @@
+'''
+this function aims to get all the images of a folder and generate a xxx_labels.csv file that contains all the annotations: 
+- filename, class, height, width, xmin, xmax, ymin, ymax
+This is used to feed a BBox-based Object Detection like Detectron2 algorithm. in order to train a model which will 
+catch Street Lights. 
+'''
+
 import pandas as pd
 import numpy as np 
 import os
