@@ -13,9 +13,14 @@ The project structures in 4 parts:
   - Instance segmentation 
   - Classification
 - Metrics evaluation
-  - Evaluation is made following AP metrics with special focus on being able to detect over 70% on the Test dataset. 
-- Deployment in handheld devices and Cloud platforms. 
-  - 
+  - Evaluation is made following AP metrics with special focus on being able to detect over 70% on the Test dataset
+- Deployment in handheld devices and Cloud platforms
+  - Adaption to Android Devices
+  - Deployment into Cloud services (AWS, other...)
+
+# Data, Data, Data
+
+## the Data Conundrum
 
 Make Datasets available to generate Detectron2 models. 
 
