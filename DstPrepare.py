@@ -30,3 +30,63 @@ dfa_S.drop(columns=['Source','IsOccluded','IsDepiction', 'IsInside', 'IsGroupOf'
 dfa_SL = dfa_S.reset_index().rename(columns={'index': 'idx_orig'})
 dfa_SL.index=range(1, len(dfa_SL)+1) 
 
+# read size of image DF Pictures (dfp)
+def createDFP(direct, categ='Street light'):
+    '''
+    this function generates the DataFrame of all the images within, returns img_ix, filename, Height and Width.
+    the input is a working str with the folder path containing images. 
+    ver 2.0
+    '''
+    LST=[]
+    ls=[]
+    # list all the files present in the folder Direct
+    ls = sorted([k for k in os.listdir(direct) if 'jpg' in k])
+    for i in range(len(ls)): 
+        fn = os.path.join(direct + '/' + ls[i])
+        im = cv2.imread(fn)
+        h,w,_ = im.shape
+        dictL = {'idx_img':i+1,
+                'ImageID': ls[i].rstrip(".jpg"),
+                 'height': h,
+                 'width': w,
+                 'class': categ}
+        LST.append(dictL)
+    dfp= pd.DataFrame(LST)
+    return dfp
+
+folder = '/content/drive/My Drive/RCNN/OIDCv4_v1/Dataset/test/Street light'
+dfp_SL = createDFP(folder)
+
+# second version of the merge DF 
+def Merge_DF(dfa, dfp):
+    ''' pass on the df Annotations and the df Pictures in folder. 
+    this function gives back a merged df with all the annotations to the present 
+    pictures with id, Height, width, and real postion of BBOX
+    '''
+    df_F = dfa.merge(dfp[['ImageID', 'idx_img', 'height', 'width', 'class']],
+                  on = 'ImageID' ,
+                  how = 'inner', 
+                  suffixes=("_Ann", "_Pic"))
+    # the index is reset to start at position 1. 
+    df_F.index=range(1, len(df_F)+1)
+
+    df_F['xmin']= (df_F['XMin'] * df_F['width']).astype(int)
+    df_F['xmax']= (df_F['XMax'] * df_F['width']).astype(int)
+    df_F['ymin']= (df_F['YMin'] * df_F['height']).astype(int)
+    df_F['ymax']= (df_F['YMax'] * df_F['height']).astype(int)
+
+    # drop useless columns
+    df_F.drop(columns=['Confidence', 'XMin', 'YMin', 'XMax', 'YMax'], inplace=True)
+    
+    return df_F
+  
+# ============== MERGE dfa & dfp ================
+df_Dst = Merge_DF(dfa_SL, dfp_SL)
+
+# == df output preparation, columns renaming, 
+df_out = df_Dst.drop(columns=['idx_orig', 'idx_img', 'LabelName']).rename(columns={'ImageID': 'filename'})
+df_out['filename'] = df_out['filename'].apply(lambda x: f"{x}.jpg")
+
+# ============== write data to csv file ===========
+df_out.to_csv('/content/drive/My Drive/RCNN/OIDCv4_v1/Dataset/test/Street light/test_labels.csv', header=True)
+
