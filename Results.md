@@ -15,3 +15,9 @@ The table summarises the different results obtained in Segmentation category.
  | Slight 199 - 293 | RN101 - FPN | 1500 | 0.00025 | 30% | 42% | 70% | | 42m |
  | Slight 199 - 293 | RN101 - FPN | 300 | 0.0025 | 33% | | | | |
 
+
+OBJECT DETECTION
+ | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time |
+ | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- |
+ | Slight 988 - 3932 | RN50 - FPN | 9000 / 64 | 0.00003 | 20% |  | | | 40m |
+ | Slight 199 - 293 | RN50 - FPN | 300 | 0.0025 | 32% |  | | | |
