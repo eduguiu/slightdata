@@ -20,14 +20,34 @@ The project structures in 4 parts:
 
 # Data, Data, Data
 
-## the Data Conundrum
+## Introduction
+Make Datasets available to generate models. 
 
-Make Datasets available to generate Detectron2 models. 
+The creation of datasets comprehenses a two stepped approach:
+- the first one aims to validate dataset creation processes so that the pipeline is functional. Thus, the orientation is towards a robust, bug-free process robust and dataset shallow (10's of images would usually suffice);
+- the second is full fledged dataset where the core of the thing as much data as can be loaded. 
+
+## Dataset repos.
+
+COCOs. explain 
+Imagenet. explain
+LVIS. explain
+
+
+## Dataset labelling sofware. 
+
+There are several projects that ease the task of image labeling. The best known are
+- labelImg (url: )
+- labelMe (url: )
+
+
+
 
 The datasets are created from images and through 
 - IrfanView (1024px)
 - labelme py software (CoCo json tagging)
 - GColab (Jupyter Notebooks).
+
 
 and loaded to be treated with Detectron2 algo notebook. 
 
