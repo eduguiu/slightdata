@@ -81,3 +81,22 @@ RFP
 RCNN
 VoV
 
+# What can be mesured, can be organised
+Guide of different measures. 
+Intro du L2, L1, etc...
+AP
+AP50
+AP75
+Metrics to apply in Object Detection 
+
+# Deploying to production 
+- Handheld devices
+
+- Cloud/Server deployment 
+  - AWS Lambda
+  - Dedicated server
+  
+
+
+
+
