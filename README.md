@@ -27,11 +27,18 @@ The creation of datasets comprehenses a two stepped approach:
 - the first one aims to validate dataset creation processes so that the pipeline is functional. Thus, the orientation is towards a robust, bug-free process robust and dataset shallow (10's of images would usually suffice);
 - the second is full fledged dataset where the core of the thing as much data as can be loaded. 
 
-## Dataset repos.
+## Dataset repos 
 
 COCOs. explain 
 Imagenet. explain
 LVIS. explain
+
+## Dataset format
+
+
+JSON
+ImageNet
+CSV (custom). 
 
 
 ## Dataset labelling sofware. 
@@ -52,4 +59,25 @@ The datasets are created from images and through
 and loaded to be treated with Detectron2 algo notebook. 
 
 A test is headed to change both models and weights, with newer algos, like VoV and CenterMask. 
+
+
+# Models 
+A model is an algorithmic structure that provides 
+Main flavours. 
+RCNN
+etc...
+
+## Architectures
+Usually in architectures, the heavier, the better rule is usually enforced. Whenever the rule is broken, a breakthrough occurs. 
+
+Template 
+Architecture | Year | Common # layers | Arguments (terms / coefficients) | AP | 
+ResNet
+DensetNet
+MobileNet
+
+## Heads
+RFP
+RCNN
+VoV
 
