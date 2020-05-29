@@ -5,7 +5,7 @@ The final aim is to be able to elaborate automatised city maps with robots, vide
 Thus, the cost of doing street inventories will decrease manifolds. 
 
 The project structures in 4 parts: 
-- Swift dataset generation format-wise (COCO, VOC, custom-dictionaries etc...) for Object Detection and a 2 Dataset to make Classification functions. 
+- Swift dataset generation format-wise (COCO, VOC, custom-dictionaries etc...) for Object Detection and a 2nd Dataset to feature Classification.
   - Train/Val dataset 
   - Test dataset with 50/50 composition of Internet and selected images
 - Model generation
