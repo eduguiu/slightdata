@@ -1,7 +1,7 @@
 Results:
 
-The table summarises the different results obtained in Segmentation category. 
-
+The table summarises the different results with different configs.  
+INSTANCE SEGMENTATION - needs a revision adding BBOX results  
  | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time |
  | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- |
  | Slight 100 - 170 | RN50 - FPN | 300 | 0.0025 | 20% |  | | | |
@@ -21,6 +21,6 @@ OBJECT DETECTION
  | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- | :--- | 
  | Slight 40 - 133 | RN50 - FPN | 3000 / 128 | 0.00003 | 10% | 15% | 22% | | 2h06m | |
  | Slight 988 - 3932 | RN50 - FPN | 1500 / 128 | 0.00003 | 4% | 3.5% | 12% | | 1h0m | |
- | Slight 988 - 3932 | RN50 - FPN | 3000 / 256 | 0.00003 | 6% | 4.5% | 13% | | 2h0m | |
- | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 | 0.0003 | 21% | 20% | 35% | X | 26m | model_final_full_256.pth |
- | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 | 0.003 | % | % | % | | 26m | |
+ | Slight 988 - 3932 | RN50 - FPN | 3000 / 256 | 0.00003 | 6% | 4.5% | 13% | | 2h0m |  model_final_full_256.pth |
+ | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 | 0.0003 | 21% | 20% | 35% | X | 26m (01h03) | model_final_full_64.pth |
+ | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 | 0.003 | % | % | % | | 2h0m (08h10m) | model_final_full_3e-3 |
