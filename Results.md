@@ -25,5 +25,7 @@ OBJECT DETECTION
  | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 / 4 | 0.0003 | 21% | 20% | 35% | | 26m (01h03) | model_final_full_64.pth |
  | Slight 988 - 3932 | RN50 - FPN | 3000 / 64 / 4 | 0.003 | 24% | 26% | 37% | X | 2h0m (13h00m) | model_final_full_3e-3.pth |
  | Slight 988 - 3932 | RN50 - FPN | 1500 / 64 / 6 | 0.03 | 12% | 15% | 16% |  | 1h30m (15h00m) | model_final_full_3e-2.pth |
- | Slight 988 - 3932 | RN50 - FPN | 500 / 64 / 4 | 0.003 | % | % | % |  | 18m (18h00m) | model_finalre_full_3e-3.pth | 3e-2 retrained with 500 epocs
- | Slight 988 - 3932 | RN101 - FPN | 1500 / 32 / 6 | 0.003 | % | % | % |  | 2h00m (15h00m) | model_101_full_3e-2.pth |
+ | Slight 988 - 3932 | RN50 - FPN | 500 / 64 / 4 | 0.003 | 18% | 19% | 30% |  | 18m (18h00m) | model_finalre_full_3e-2.pth | 
+ | Slight 988 - 3932 | RN50 - FPN | 500 / 64 / 4 | 0.0003 | 18% | 19% | 30% | X | 19m (18h00m) | model_finalre_full_3e-3.pth | 
+ | Slight 988 - 3932 | RN101 - FPN | 1200 / 128 / 2 | 0.0025 | 22% | 23% | 37% |  | 30m (20h00m) | model_final_128.pth |
+ | Slight 988 - 3932 | RN101 - FPN | 1200 / 128 / 4 | 0.00025 |  24% |  22% |  41% | x |  1h10m (21h00m) | model_r101_128x2.pth |
