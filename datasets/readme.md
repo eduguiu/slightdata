@@ -9,6 +9,7 @@ Slight full is a ObjectDetection (OD) composed by:
 - Trainset: 11 pics and 3932 annotations (bbox)
 - Testset: 63 pics and 242 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
+
 Preferred models: model_r101_128x6.pth
 
 ### Slight_ext_red
@@ -17,6 +18,7 @@ Slight full is a ObjectDetection (OD) composed by:
 - Trainset: 60 pics and 3932 annotations (bbox)
 - Testset: 63 pics and 242 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
+
 Preferred models: model_r101_128x6.pth
 
 ## Slight_full
@@ -25,6 +27,7 @@ Slight full is a ObjectDetection (OD) composed by:
 - Trainset: 988 pics and 3932 annotations (bbox)
 - Testset: 63 pics and 242 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
+
 Preferred models: model_r101_128x6.pth
 
 ### Slight_red
@@ -33,6 +36,7 @@ Slight full is a ObjectDetection (OD) composed by:
 - Trainset: 40 pics and 133 annotations (bbox)
 - Testset: 12 pics and 56 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
+
 Preferred models: 
 
 ## Slight_ext (to develop)
@@ -74,10 +78,13 @@ Slight full is a Instance Segmentation (IS) composed by:
 
 Preferred model: 
 
-# Object Detection (to develop)
+# Classification (to develop)
 The classification model will contains 4 classes:
-- Road (high power, high position)
-- Urban (low power, medium position)
+- Road (high power, high position, high throughput road)
+- Urban (functional, low power, medium position)
 - Classical (decorative, urban slight)
+- Ground.
+
+It has to contain at least n_class x 60 pictures of close range, big-enough luminaires. 
 
 
