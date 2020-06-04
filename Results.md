@@ -13,7 +13,7 @@ INSTANCE SEGMENTATION - needs a revision adding BBOX results
  | Slight 199 - 293 | RN50 - FPN | 2400 / 64 | 0.00005 | 34%  | 56% | 53% |   | 44m | | | |
  | Slight 199 - 293 | RN50 - FPN | 1500 / 64 | 0.00005 |  34%  |  56% |  53% |   | 6m50 | | | | 
  | Slight 199 - 293 | RN101 - FPN | 1500 | 0.00025 | 30% | 42% | 70% | | 42m | 29 | 42 | 78 | |
- | Slight 199 - 293 | RN101 - FPN | 300 | 0.0025 | 31% | 48% | 85% | | 6m30 | 26% | 41% | 75% |  |
+ | Slight 199 - 293 | RN101 - FPN | 1000 | 0.0025 | 31% | 48% | 85% | | 6m30 | 26% | 41% | 75% | model_IS_RN101.pth |
 
 
 OBJECT DETECTION
