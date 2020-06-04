@@ -2,8 +2,8 @@ Results:
 
 The table summarises the different results with different configs.  
 INSTANCE SEGMENTATION - needs a revision adding BBOX results  
- | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time | bbox AP | bbox APm | bbox APl | 
- | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- | :--- | :--- |  :--- |
+ | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time | bbox AP | bbox APm | bbox APl | model filename | 
+ | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- | :--- | :--- |  :--- |   :--- |
  | Slight 100 - 170 | RN50 - FPN | 300 | 0.0025 | 20% |  | | | | | | |
  | Slight 199 - 293 | RN50 - FPN | 300 | 0.0025 | 32% |  | | | | | | |
  | Slight 199 - 293 | RN50 - FPN | 1500 | 0.0025 | 29% | | | | | | | |
@@ -13,7 +13,7 @@ INSTANCE SEGMENTATION - needs a revision adding BBOX results
  | Slight 199 - 293 | RN50 - FPN | 2400 / 64 | 0.00005 | 34%  | 56% | 53% |   | 44m | | | |
  | Slight 199 - 293 | RN50 - FPN | 1500 / 64 | 0.00005 |  34%  |  56% |  53% |   | 6m50 | | | | 
  | Slight 199 - 293 | RN101 - FPN | 1500 | 0.00025 | 30% | 42% | 70% | | 42m | 29 | 42 | 78 | |
- | Slight 199 - 293 | RN101 - FPN | 300 | 0.0025 | 33% | | | | | | | |
+ | Slight 199 - 293 | RN101 - FPN | 300 | 0.0025 | 31% | 48% | 85% | | 6m30 | 26% | 41% | 75% |  |
 
 
 OBJECT DETECTION
