@@ -12,7 +12,7 @@ Slight full is a ObjectDetection (OD) composed by:
 
 Preferred models: model_r101_128x6.pth
 
-### Slight_ext_red
+#### Slight_ext_red
 Slight full is a ObjectDetection (OD) composed by:
 - 3 class ("Street_light", "car, "Traffic_light)
 - Trainset: 60 pics and 3932 annotations (bbox)
@@ -85,6 +85,6 @@ The classification model will contains 4 classes:
 - Classical (decorative, urban slight)
 - Ground.
 
-It has to contain at least n_class x 60 pictures of close range, big-enough luminaires. 
+It has to contain at least n_class x 60 pictures of close range, big-enough (>200 px) luminaires. 
 
 
