@@ -15,7 +15,7 @@ Slight full is a ObjectDetection (OD) composed by:
 - 1 class ("Street_light")
 - Trainset: 988 pics and 3932 annotations (bbox)
 - Testset: 63 pics and 
-- COCO-format 
+- csv-annotated file ( 
 Preferred models: 
 
 # slight_0
