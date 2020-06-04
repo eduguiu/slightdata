@@ -52,7 +52,6 @@ Slight extended redux is a ObjectDetection (OD) composed by:
 - Testset: 63 pics and 242 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
 
-
 Preferred models: 
 
 # Instance Segmentation
@@ -62,6 +61,7 @@ Slight full is a Instance Segmentation (IS) composed by:
 - Trainset: 199 pics and 293 annotations (IS + bbox)
 - Testset: 19 pics and 44 annotations (IS + Bbox)
 - COCO-format json files (trainval.json on train and val on root folder) extrated from Labelme (WKentaro)
+
 Preferred models: model_IS_RN101.pth (IS AP_large = 85% / IS AP_med = 41% )
 
 
@@ -71,5 +71,13 @@ Slight full is a Instance Segmentation (IS) composed by:
 - Trainset: 300 pics and 600 annotations (IS + bbox)
 - Testset: 50 pics and 100 annotations (IS + Bbox)
 - COCO-format json files
+
 Preferred model: 
+
+# Object Detection (to develop)
+The classification model will contains 4 classes:
+- Road (high power, high position)
+- Urban (low power, medium position)
+- Classical (decorative, urban slight)
+
 
