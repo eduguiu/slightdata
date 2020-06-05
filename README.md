@@ -63,8 +63,12 @@ A test is headed to change both models and weights, with newer algos, like VoV a
 
 # Models 
 A model is an algorithmic structure that provides 
+
 Main flavours. 
+
 RCNN
+ResNet-50 / 101  
+[EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch)
 etc...
 
 ## Architectures
