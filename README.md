@@ -74,6 +74,7 @@ Usually in architectures, the heavier, the better rule is usually enforced. When
 
 Template 
 Architecture | Year | Common # layers | Arguments (terms / coefficients) | AP | 
+
 ResNet-50 / 101  
 
 [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch) See example.
