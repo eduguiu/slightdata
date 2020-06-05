@@ -67,8 +67,6 @@ A model is an algorithmic structure that provides
 Main flavours. 
 
 RCNN
-ResNet-50 / 101  
-[EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch)
 etc...
 
 ## Architectures
@@ -76,9 +74,11 @@ Usually in architectures, the heavier, the better rule is usually enforced. When
 
 Template 
 Architecture | Year | Common # layers | Arguments (terms / coefficients) | AP | 
-ResNet
-DensetNet
-MobileNet
+ResNet-50 / 101  
+
+[EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch) See example.
+
+DenseNet
 
 ## Heads
 RFP
