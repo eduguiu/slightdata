@@ -25,7 +25,7 @@ Preferred models:
 ## Slight_ext (to develop)
 Slight ext is a ObjectDetection (OD) composed by:
 - 3 class ["Street_light", "car, "Traffic_light"]
-- Trainset: [11230, 1000, 1775] 14 005 pics and xxx  annotations (bbox)
+- Trainset: [11230, 1000, 1775] 13 432 pics (573 overlaps) and xxx  annotations (bbox)
 - Validset: [14, 100, 19] 133 pics and xxx annotations (bbox)
 - Testset: [63 , 100, 61] 224 pics and xxx annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
