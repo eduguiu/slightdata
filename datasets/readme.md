@@ -26,8 +26,8 @@ Preferred models:
 Slight ext is a ObjectDetection (OD) composed by:
 - 3 class ["Street_light", "car, "Traffic_light"]
 - Trainset: [11230, 1000, 1775] 14 005 pics and xxx  annotations (bbox)
-- Validset: [14, 200, 19] 233 pics and xxx annotations (bbox)
-- Testset: [63 , 200, 61] 324 pics and xxx annotations (bbox)
+- Validset: [14, 100, 19] 133 pics and xxx annotations (bbox)
+- Testset: [63 , 100, 61] 224 pics and xxx annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
 Preferred models: 
 
@@ -35,8 +35,9 @@ Preferred models:
 Slight extended redux is a ObjectDetection (OD) composed by:
 - Objective: test pipeline with several classes. 
 - 3 class ["Street_light", "car, "Traffic_light"]
-- Trainset: 60 pics and xxx annotations (bbox)
-- Testset: 10 pics and 60 annotations (bbox)
+- Trainset:      66 pics and 201 annotations (bbox)
+- Validationset: 167 pics and 492 annotations (bbox)
+- Testset:       10 pics and 60 annotations (bbox)
 - csv-annotated file (train_labels.csv / test_labels)
 
 Preferred models: 
