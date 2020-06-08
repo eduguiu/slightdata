@@ -22,7 +22,7 @@ Slight full is a ObjectDetection (OD) composed by:
 
 Preferred models: 
 
-## Slight_ext (to develop)
+## Slight_ext (to test)
 Slight ext is a ObjectDetection (OD) composed by:
 - 3 class ["Street_light", "car, "Traffic_light"]
 - Trainset: [11230, 1000, 1775] 13 432 pics (573 overlaps) and 61936  annotations (bbox)
