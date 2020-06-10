@@ -28,11 +28,13 @@ OBJECT DETECTION
  | Slight 988 - 3932 | RN50 - FPN | 500 / 64 / 4 | 0.003 | 18% | 19% | 30% |  | 18m (18h00m) | model_finalre_full_3e-2.pth | 
  | Slight 988 - 3932 | RN50 - FPN | 500 / 64 / 4 | 0.0003 | 18% | 19% | 30% | X | 19m (18h00m) | model_finalre_full_3e-3.pth | 
  | Slight 988 - 3932 | RN101 - FPN | 1200 / 128 / 2 | 0.0025 | 22% | 23% | 37% |  | 30m (20h00m) | model_final_128.pth |
- | Slight 988 - 3932 | RN101 - FPN | 1000 / 128 / 4 | 0.00025 |  24% |  22% |  39% | x |  1h10m (21h00m) | model_r101_128x2.pth |
+ | Slight 988 - 3932 | RN101 - FPN | 1000 / 128 / 4 | 0.00025 |  24% |  22% |  39% |  |  1h10m (21h00m) | model_r101_128x2.pth |
  | Slight 988 - 3932 | RN101 - FPN | 1000 / 128 / 4 | 0.000025 |  24% |  23% |  39% |  |  1h10m (14h00m) | model_r101_128x3.pth |
  | Slight 988 - 3932 | RN101 - FPN | 1500 / 128 / 4 | 0.00025 |  24% |  22% |  44% |  |  1h36m (16h00m) | x2 -> model_r101_128x4.pth |
  | Slight 988 - 3932 | RN101 - FPN | 1500 / 128 / 4 | 0.00015 |  25% |  22% |  43% |  |  1h36m (18h00m) | x4 -> model_r101_128x5.pth |
- | Slight 988 - 3932 | RN101 - FPN | 500 / 64 / 4 | 0.00005 |  25% |  22% |  43% |  |  1h36m (18h00m) | x5 -> model_r101_128x6.pth |
-  | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 |  17% |  27% |  40% |  |  25m (10h00m) | model_r101_ext_ODx1.pth |
-  | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 |  16% |  28% |  40% |  |  25m (10h50m) | x1 -> model_r101_ext_ODx2.pth |
+ | Slight 988 - 3932 | RN101 - FPN | 500 / 64 / 4 | 0.00005 |  25% |  22% |  43% | x |  1h36m (18h00m) | x5 -> model_r101_128x6.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 | 17% |  27% | 40% |  |  25m (10h00m) | model_r101_ext_ODx1.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 | 16% |  28% | 40% |  | 25m (10h50m) | x1 -> model_r101_ext_ODx2.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.00025 | 24% | 33% | 49% |  | 25m (11h20m) | x2 -> model_r101_ext_ODx3.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.000025 | 25% | 34% | 50% | x | 25m (11h20m) | x3 -> model_r101_ext_ODx4.pth |
 
