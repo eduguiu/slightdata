@@ -33,4 +33,5 @@ OBJECT DETECTION
  | Slight 988 - 3932 | RN101 - FPN | 1500 / 128 / 4 | 0.00025 |  24% |  22% |  44% |  |  1h36m (16h00m) | x2 -> model_r101_128x4.pth |
  | Slight 988 - 3932 | RN101 - FPN | 1500 / 128 / 4 | 0.00015 |  25% |  22% |  43% |  |  1h36m (18h00m) | x4 -> model_r101_128x5.pth |
  | Slight 988 - 3932 | RN101 - FPN | 500 / 64 / 4 | 0.00005 |  25% |  22% |  43% |  |  1h36m (18h00m) | x5 -> model_r101_128x6.pth |
+  | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 |  17% |  27% |  40% |  |  25m (10h00m) | model_r101_ext_ODx1.pth |
 
