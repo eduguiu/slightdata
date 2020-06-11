@@ -36,5 +36,7 @@ OBJECT DETECTION
  | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 | 17% |  27% | 40% |  |  25m (10h00m) | model_r101_ext_ODx1.pth |
  | Slight 13k - 61k | RN101 - FPN | 4000 / 64 / 2 | 0.0025 | 16% |  28% | 40% |  | 25m (10h50m) | x1 -> model_r101_ext_ODx2.pth |
  | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.00025 | 24% | 33% | 49% |  | 25m (11h20m) | x2 -> model_r101_ext_ODx3.pth |
- | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.000025 | 25% | 34% | 50% | x | 25m (11h20m) | x3 -> model_r101_ext_ODx4.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.000025 | 25% | 34% | 50% | x | 25m (12h00m) | x3 -> model_r101_ext_ODx4.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.000025 | 25% | 34% | 50% | x | 25m (12h30m) | x4 -> model_r101_ext_ODx5.pth |
+ | Slight 13k - 61k | RN101 - FPN | 4000 / 128 / 2 | 0.000025 | % | % | % | x | 2h20m (16h00m) | x5 -> model_r101_ext_ODx6.pth |
 
