@@ -2,8 +2,8 @@ Results:
 
 The table summarises the different results with different configs.  
 INSTANCE SEGMENTATION - needs a revision adding BBOX results  
- | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time | bbox AP | bbox APm | bbox APl | model filename | De
- | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- | :--- | :--- |  :--- |   :--- |
+ | Dataset  | Model  | Epochs  /128ROI | LR | AP result | APm | APl | Best | Time | bbox AP | bbox APm | bbox APl | model filename | Deleted |
+ | :--- | :--- | :--- | :--- | :--- |  :--- | :--- | :--- | :--- | :--- | :--- |  :--- |   :--- | :--- |
  | Slight 100 - 170 | RN50 - FPN | 300 | 0.0025 | 20% |  | | | | | | |
  | Slight 199 - 293 | RN50 - FPN | 300 | 0.0025 | 32% |  | | | | | | |
  | Slight 199 - 293 | RN50 - FPN | 1500 | 0.0025 | 29% | | | | | | | |
